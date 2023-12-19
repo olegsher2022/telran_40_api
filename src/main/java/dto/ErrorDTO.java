@@ -8,16 +8,21 @@ import lombok.ToString;
 @Getter
 @Builder
 @ToString
+
 public class ErrorDTO {
-//    "timestamp": "2023-12-14T13:36:15.217Z",
+
+//  "timestamp": "2023-12-18T16:33:10.109Z",
 //  "status": 0,
 //  "error": "string",
 //  "message": {},
 //  "path": "string"
-
     String timestamp;
     int status;
     String error;
     String message;
     String path;
+
+
+
+
 }
