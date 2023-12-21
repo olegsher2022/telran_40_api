@@ -1,4 +1,5 @@
 package dto;
+
 import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
@@ -26,5 +27,6 @@ public class ContactDTO {
     String phone;
     String address;
     String description;
+
 
 }

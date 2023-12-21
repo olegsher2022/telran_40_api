@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 import java.io.IOException;
 
-public class LoginTests  extends  {
+public class LoginTests   {
     @Test
     public void loginPositive() throws IOException {
         Gson gson = new Gson();
